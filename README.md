@@ -1,5 +1,7 @@
 # AI-Driven Sales Forecasting & Business Intelligence Dashboard
 
+
+   🔗 **Live demo:** https://sales-forecasting-prince.streamlit.app
 An interactive dashboard that combines **business intelligence** (KPIs, trends, regional and category analysis)
 with **AI-based sales forecasting** (three models compared on a hold-out set).
 
