@@ -31,7 +31,7 @@ def run_forecast(series: pd.Series, horizon: int, model: str):
 # ---------------- Sidebar ----------------
 st.sidebar.title("⚙️ Controls")
 up = st.sidebar.file_uploader("Upload sales CSV (optional)", type="csv")
-df = load(up if up else "data/sales.csv")
+df = load(up if up else "sales.csv")
 st.sidebar.caption("Required columns: date, category, region, units_sold, unit_price, revenue, customers")
 
 dmin, dmax = df.date.min().date(), df.date.max().date()
